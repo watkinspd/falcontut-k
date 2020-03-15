@@ -6,7 +6,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /foothings
+      - path: /
         backend:
           serviceName: hello-python-service
           servicePort: 6000
